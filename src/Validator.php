@@ -68,7 +68,7 @@ abstract class Validator implements ValidatorInterface
     /**
      * Constructor.
      *
-     * @param \Illuminate\Validation\Factory $factory
+     * @param Factory $factory
      *
      * @return void
      */

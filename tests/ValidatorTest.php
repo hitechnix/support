@@ -25,7 +25,7 @@ class ValidatorTest extends TestCase
     /**
      * The Validator instance.
      *
-     * @var \Hitechnix\Support\Validator
+     * @var Validator
      */
     protected $validator;
 
