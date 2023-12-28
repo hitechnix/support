@@ -73,22 +73,22 @@ class Mailer
     /**
      * The Illuminate mailer instance.
      *
-     * @var \Illuminate\Contracts\Mail\Mailer
+     * @var IlluminateMailer
      */
     protected $mailer;
 
     /**
      * The Illuminate config repository instance.
      *
-     * @var \Illuminate\Config\Repository
+     * @var IlluminateConfig
      */
     protected $config;
 
     /**
      * Constructor.
      *
-     * @param \Illuminate\Contracts\Mail\Mailer $mailer
-     * @param \Illuminate\Config\Repository     $config
+     * @param IlluminateMailer $mailer
+     * @param IlluminateConfig $config
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class Mailer
     /**
      * Returns the Illuminate mailer instance.
      *
-     * @return \Illuminate\Contracts\Mail\Mailer
+     * @return IlluminateMailer
      */
     public function getMailer()
     {
@@ -112,7 +112,7 @@ class Mailer
     /**
      * Sets the Illuminate mailer instance.
      *
-     * @param \Illuminate\Contracts\Mail\Mailer $mailer
+     * @param IlluminateMailer $mailer
      *
      * @return $this
      */
@@ -126,7 +126,7 @@ class Mailer
     /**
      * Returns the Illuminate config repository instance.
      *
-     * @return \Illuminate\Config\Repository
+     * @return IlluminateConfig
      */
     public function getConfig()
     {
@@ -136,7 +136,7 @@ class Mailer
     /**
      * Sets the Illuminate config repository instance.
      *
-     * @param \Illuminate\Config\Repository $config
+     * @param IlluminateConfig $config
      *
      * @return $this
      */

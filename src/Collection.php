@@ -59,8 +59,8 @@ class Collection implements \ArrayAccess, \Countable
     /**
      * Attaches the given collection into the current collection.
      *
-     * @param \Hitechnix\Support\Collection $collection
-     * @param string                        $type
+     * @param Collection $collection
+     * @param string     $type
      *
      * @return $this
      */

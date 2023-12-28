@@ -24,7 +24,7 @@ class MailerTest extends TestCase
     /**
      * The Mailer instance.
      *
-     * @var \Hitechnix\Support\Mailer
+     * @var Mailer
      */
     protected $mailer;
 
