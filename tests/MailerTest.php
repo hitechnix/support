@@ -1,6 +1,6 @@
 <?php
 /*
- * Hitechnix Corporation
+ * Hi-Technix, Inc.
  *
  * NOTICE OF LICENSE
  *
@@ -8,8 +8,8 @@
  * available through the world-wide-web at this URL:
  * https://opensource.hitechnix.com/LICENSE.txt
  *
- * @author          Hitechnix Corporation
- * @copyright       Copyright (c) 2023 Hitechnix Corporation
+ * @author          Hi-Technix, Inc.
+ * @copyright       Copyright (c) 2023 Hi-Technix, Inc.
  * @link            https://opensource.hitechnix.com
  */
 
