@@ -1,0 +1,55 @@
+{
+  "name": "hitechnix/support",
+  "description": "Flexible helper methods & traits for commonly used functionalities.",
+  "keywords": [
+    "support",
+    "helper",
+    "laravel",
+    "hitechnix"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Hi-Technix, Inc.",
+      "email": "support@hitechnix.com",
+      "homepage": "https://opensource.hitechnix.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/config": "^10.0",
+    "illuminate/mail": "^10.0",
+    "illuminate/validation": "^10.0",
+    "symfony/translation": "^6.4"
+  },
+  "require-dev": {
+    "hitechnix/php-cs-fixer": "^3.0",
+    "mockery/mockery": "^1.6",
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hitechnix\\Support\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hitechnix\\Support\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "10.0.x-dev"
+    }
+  },
+  "scripts": {
+    "cs:check": "./vendor/bin/php-cs-fixer fix --verbose --ansi --show-progress=dots --diff --dry-run",
+    "cs:fix": "./vendor/bin/php-cs-fixer fix --verbose --ansi --show-progress=dots",
+    "test": "./vendor/bin/phpunit --verbose --colors=always"
+  }
+}
